@@ -10,7 +10,7 @@ Place this repository beside human-journeys and journeys. Install dependencies i
 
 ## Upload and Pages
 
-No remote has been configured. After upload to the selected GitHub account, select GitHub Actions as the Pages source. The workflow reads the shared repositories under the same owner. CONTENT_REF and ENGINE_REF repository variables may pin a branch, tag or commit; build-info.json records resolved commits. CUSTOM_DOMAINS_ACTIVE defaults to false: cross-site links use GitHub Pages project URLs until the domain is configured.
+GitHub repository: https://github.com/datubu/migration. Select GitHub Actions as the Pages source. The workflow reads the shared repositories under the same owner. CONTENT_REF and ENGINE_REF repository variables may pin a branch, tag or commit; build-info.json records resolved commits. CUSTOM_DOMAINS_ACTIVE defaults to false: cross-site links use GitHub Pages project URLs until the domain is configured.
 
 Bind move.datubu.com in Pages settings after the matching DNS record is ready, then set CUSTOM_DOMAINS_ACTIVE=true for all website repositories and rebuild. The generated CNAME file documents the intended domain; Actions-based publication still requires the Pages setting.
 
